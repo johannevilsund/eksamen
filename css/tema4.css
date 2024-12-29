@@ -1,0 +1,20 @@
+.dolk {
+  scale: 0.4 0.4;
+  position: relative;
+  top: -25%;
+}
+.gift {
+  scale: 0.5 0.5;
+  position: relative;
+  top: -5%;
+}
+.pistol {
+  rotate: 90deg;
+  position: relative;
+  top: 15%;
+}
+.modgift {
+  scale: 1.4 1.4;
+  position: relative;
+  top: 5%;
+}
