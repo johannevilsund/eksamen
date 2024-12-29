@@ -49,16 +49,33 @@ h1 {
   font-size: 5rem;
   font-family: "ivypresto-display", serif;
   font-weight: 400;
-  font-style: normal;
+  font-style: thin;
+  text-align: center;
+}
+h5:first-letter {
+  text-transform: uppercase;
+  font-size: 17rem;
+  margin-left: 2rem;
+}
+h5 {
+  color: rgb(148, 0, 1);
+  font-size: 5rem;
+  font-family: "ivypresto-display", serif;
+  font-weight: 400;
+  font-style: thin;
+  position: relative;
+  top: -7%;
 }
 h2 {
   font-family: "ivypresto-display", serif;
   font-weight: 400;
   font-style: thin;
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 1rem;
 }
-a {
-  color: rgb(148, 0, 1);
-  filter: brightness(57%);
+p {
+  font-size: 1.15rem;
 }
 
 .grid_2col {

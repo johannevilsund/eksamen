@@ -23,9 +23,9 @@
   filter: brightness(1);
   transition: transform 0.3s ease, filter 0.3s ease; /* Smooth transition for effects */
 }
-.surdeja:hover {
+.surdej:hover {
   transform: scale(1.2); /* Forstørrer billedet lidt */
-  filter: brightness(2); /* Gør billedet lidt lysere */
+  filter: brightness(1); /* Gør billedet lidt lysere */
 }
 .spil {
   position: relative;
@@ -34,9 +34,9 @@
   filter: brightness(1);
   transition: transform 0.3s ease, filter 0.3s ease; /* Smooth transition for effects */
 }
-.spila:hover {
+.spil:hover {
   transform: scale(1.2); /* Forstørrer billedet lidt */
-  filter: brightness(2); /* Gør billedet lidt lysere */
+  filter: brightness(1); /* Gør billedet lidt lysere */
 }
 
 h1,
