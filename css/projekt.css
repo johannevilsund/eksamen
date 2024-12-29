@@ -1,0 +1,61 @@
+.macbook {
+  scale: 0.6 0.6;
+  position: relative;
+  top: -22%;
+}
+
+.pil {
+  scale: 0.07 0.07;
+  position: relative;
+  top: -88%;
+}
+
+.tikimedia {
+  position: relative;
+  scale: 0.7 0.7;
+  top: -140%;
+}
+
+.surdej {
+  position: relative;
+  scale: 0.7 0.7;
+  top: -145%;
+  filter: brightness(1);
+  transition: transform 0.3s ease, filter 0.3s ease; /* Smooth transition for effects */
+}
+.surdeja:hover {
+  transform: scale(1.2); /* Forstørrer billedet lidt */
+  filter: brightness(2); /* Gør billedet lidt lysere */
+}
+.spil {
+  position: relative;
+  scale: 0.7 0.7;
+  top: -145%;
+  filter: brightness(1);
+  transition: transform 0.3s ease, filter 0.3s ease; /* Smooth transition for effects */
+}
+
+h1,
+h2 {
+  text-align: center;
+  position: relative;
+  top: -150%;
+}
+h1 {
+  font-size: 8rem;
+}
+h2 {
+  font-size: 2rem;
+}
+
+.tikimedia {
+  position: relative;
+  scale: 0.7 0.7;
+  top: -145%;
+  transition: transform 0.3s ease, filter 0.3s ease; /* Smooth transition for effects */
+}
+
+.tikimedia:hover {
+  transform: scale(1.2); /* Forstørrer billedet lidt */
+  filter: brightness(2); /* Gør billedet lidt lysere */
+}

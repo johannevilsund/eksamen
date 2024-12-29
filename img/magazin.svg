@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 669.67 457.01">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient-7);
+      }
+
+      .cls-2 {
+        fill: url(#linear-gradient-5);
+      }
+
+      .cls-3 {
+        fill: url(#linear-gradient-6);
+      }
+
+      .cls-4 {
+        fill: url(#linear-gradient-4);
+      }
+
+      .cls-5 {
+        fill: url(#linear-gradient-3);
+      }
+
+      .cls-6 {
+        fill: url(#linear-gradient-2);
+      }
+
+      .cls-7 {
+        fill: url(#linear-gradient);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="337.07" y1="228.51" x2="657.57" y2="228.51" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#d1d3d4" stop-opacity="0"/>
+      <stop offset="0" stop-color="#d1d3d4" stop-opacity="0"/>
+      <stop offset="0" stop-color="#cecfd0" stop-opacity=".2"/>
+      <stop offset="0" stop-color="#cbcccc" stop-opacity=".39"/>
+      <stop offset="0" stop-color="#c8c9c8" stop-opacity=".55"/>
+      <stop offset="0" stop-color="#c6c6c6" stop-opacity=".69"/>
+      <stop offset="0" stop-color="#c4c4c3" stop-opacity=".81"/>
+      <stop offset="0" stop-color="#c3c2c2" stop-opacity=".89"/>
+      <stop offset="0" stop-color="#c2c1c0" stop-opacity=".96"/>
+      <stop offset="0" stop-color="#c2c1c0" stop-opacity=".99"/>
+      <stop offset="0" stop-color="#c2c1c0"/>
+      <stop offset="1" stop-color="#fff" stop-opacity=".65"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="7.56" y1="226.72" x2="13.93" y2="226.72" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-3" x1="2.96" y1="226.72" x2="7.88" y2="226.72" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-4" x1="0" y1="226.72" x2="3.29" y2="226.72" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-5" x1="657.57" x2="661.85" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-6" x1="661.85" y1="227.26" x2="666.23" y2="227.26" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-7" x1="665.17" y1="227.26" x2="669.67" y2="227.26" xlink:href="#linear-gradient"/>
+  </defs>
+  <g id="Layer_7" data-name="Layer 7">
+    <g id="lN0Y1M.tif">
+      <image id="Layer_0" data-name="Layer 0" width="1374" height="962" transform="translate(-9.21 -11.68) scale(.5)" xlink:href="magazin-1.png"/>
+    </g>
+  </g>
+  <g id="Layer_8" data-name="Layer 8">
+    <polygon class="cls-7" points="657.57 0 337.73 0 337.07 457.01 657.57 457.01 657.57 0"/>
+    <polygon class="cls-6" points="13.93 0 7.88 0 7.56 453.44 13.93 453.44 13.93 0"/>
+    <polygon class="cls-5" points="2.96 0 3.29 453.44 7.56 453.44 7.88 0 2.96 0"/>
+    <polygon class="cls-4" points="0 0 0 453.44 3.29 453.44 2.96 0 0 0"/>
+    <rect class="cls-2" x="657.57" width="4.28" height="457.01"/>
+    <polygon class="cls-3" points="666.23 0 665.17 454.51 661.85 454.51 661.85 0 666.23 0"/>
+    <polygon class="cls-1" points="669.67 0 666.23 0 665.17 454.51 669.67 454.51 669.67 0"/>
+  </g>
+</svg>
