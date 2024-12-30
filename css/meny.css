@@ -38,7 +38,7 @@ nav {
 }
 
 .menu a:hover {
-  color: rgb(233, 157, 157);
+  color: rgba(148, 0, 1, 0.5);
 }
 .burger {
   width: 30px;

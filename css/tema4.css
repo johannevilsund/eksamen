@@ -18,3 +18,16 @@
   position: relative;
   top: 5%;
 }
+
+p {
+  margin-bottom: 1rem;
+}
+
+h2 {
+  margin-top: 3rem;
+}
+
+.skerme {
+  position: relative;
+  top: -35rem;
+}

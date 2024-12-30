@@ -1,0 +1,39 @@
+.overskrift {
+  font-size: 9rem;
+  position: relative;
+  top: 10%;
+}
+
+a {
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-weight: 600;
+  /* color: rgb(233, 157, 157); */
+  color: rgba(148, 0, 1, 0.5);
+
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(148, 0, 1);
+}
+
+.forside_meny {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 35rem;
+  text-align: center;
+}
+
+@media screen and (max-width: 800px) {
+  .forside_meny {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    margin-top: 22rem;
+  }
+}
+
+#forside {
+  aspect-ratio: 1600/900;
+}
