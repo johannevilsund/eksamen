@@ -10,6 +10,18 @@
   top: -88%;
 }
 
+.studiestart {
+  position: relative;
+  scale: 0.7 0.7;
+  top: -145%;
+  filter: brightness(1);
+  transition: transform 0.3s ease, filter 0.3s ease; /* Smooth transition for effects */
+}
+.studiestart:hover {
+  transform: scale(1.1); /* Forstørrer billedet lidt */
+  filter: brightness(1); /* Gør billedet lidt lysere */
+}
+
 .tikimedia {
   position: relative;
   scale: 0.7 0.7;
@@ -24,7 +36,7 @@
   transition: transform 0.3s ease, filter 0.3s ease; /* Smooth transition for effects */
 }
 .surdej:hover {
-  transform: scale(1.2); /* Forstørrer billedet lidt */
+  transform: scale(1.1); /* Forstørrer billedet lidt */
   filter: brightness(1); /* Gør billedet lidt lysere */
 }
 .spil {
@@ -35,7 +47,7 @@
   transition: transform 0.3s ease, filter 0.3s ease; /* Smooth transition for effects */
 }
 .spil:hover {
-  transform: scale(1.2); /* Forstørrer billedet lidt */
+  transform: scale(1.1); /* Forstørrer billedet lidt */
   filter: brightness(1); /* Gør billedet lidt lysere */
 }
 
@@ -60,6 +72,14 @@ h2 {
 }
 
 .tikimedia:hover {
-  transform: scale(1.2); /* Forstørrer billedet lidt */
+  transform: scale(1.1); /* Forstørrer billedet lidt */
   filter: brightness(2); /* Gør billedet lidt lysere */
+}
+
+#mineprojektermeny {
+  color: rgb(148, 0, 1);
+}
+
+#mineprojektermeny a:hover {
+  color: rgba(148, 0, 1, 0.5);
 }

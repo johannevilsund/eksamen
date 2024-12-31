@@ -1,0 +1,7 @@
+#mineprojektermeny {
+  color: rgb(148, 0, 1);
+}
+
+#mineprojektermeny a:hover {
+  color: rgba(148, 0, 1, 0.5);
+}
