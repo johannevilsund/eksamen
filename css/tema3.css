@@ -6,3 +6,31 @@
 .flyt {
   margin-top: -18rem;
 }
+@media screen and (max-width: 800px) {
+  h5 {
+    position: relative;
+    top: 1rem;
+    margin-bottom: 1rem;
+  }
+  .gif {
+    position: relative;
+  }
+  .grid_4col {
+    display: none;
+  }
+  .displaynone {
+    display: none;
+  }
+  img {
+    margin-bottom: 2rem;
+  }
+  p {
+    margin-bottom: 2rem;
+  }
+}
+@media screen and (min-width: 800px) {
+  h5 {
+    position: relative;
+    top: 0.3rem;
+  }
+}

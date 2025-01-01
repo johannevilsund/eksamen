@@ -27,14 +27,6 @@ video {
   /* filter: brightness(30%); */
 }
 
-#forside {
-  background-image: url(../img/baggrund.png);
-  width: 100%;
-  aspect-ratio: 1920/2368;
-  /* position: absolute; */
-  top: 0;
-  left: 0;
-}
 body {
   background-image: url(../img/baggrund.png);
   width: 100%;
@@ -80,6 +72,14 @@ h5 {
   text-align: center;
 }
 @media screen and (min-width: 800px) {
+  #forside {
+    background-image: url(../img/baggrund.png);
+    width: 100%;
+    aspect-ratio: 1920/2368;
+    /* position: absolute; */
+    top: 0;
+    left: 0;
+  }
   h5:first-letter {
     text-transform: uppercase;
     font-size: 17rem;
@@ -88,6 +88,12 @@ h5 {
   h5 {
     text-align: left;
   }
+
+  h5 {
+    position: relative;
+    top: 0.3rem;
+  }
+
   .grid_2col {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -113,4 +119,18 @@ h5 {
     gap: 2rem;
     margin: 5%;
   }
+}
+@media screen and (max-width: 800px) {
+  body {
+    padding: 2%;
+  }
+  /* body {
+    background-image: url(../img/mobilbaggrund.png);
+    background-size: cover;
+    width: 100%;
+    aspect-ratio: 119/256;
+    position: relative;
+    top: 0;
+    left: 0;
+  } */
 }

@@ -83,3 +83,9 @@ h2 {
 #mineprojektermeny a:hover {
   color: rgba(148, 0, 1, 0.5);
 }
+
+@media screen and (max-width: 800px) {
+  h1 {
+    font-size: 4.2rem;
+  }
+}
