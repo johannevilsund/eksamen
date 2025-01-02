@@ -88,11 +88,10 @@ nav {
   nav.active .menu {
     display: block;
     background-color: transparent;
-    position: absolute;
-    top: 94px;
-    left: 0;
+    position: relative;
+    top: 70px;
     width: 100%;
-
+    margin-bottom: 4rem;
     z-index: 1;
   }
 
@@ -111,6 +110,6 @@ nav {
   }
 
   nav.active .menu {
-    left: 0; /* Menuen forbliver justeret til venstre */
+    left: -13rem; /* Menuen forbliver justeret til venstre */
   }
 }

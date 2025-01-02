@@ -76,13 +76,13 @@ h2 {
   filter: brightness(2); /* Gør billedet lidt lysere */
 }
 
-#mineprojektermeny {
+/* #mineprojektermeny {
   color: rgb(148, 0, 1);
 }
 
 #mineprojektermeny a:hover {
   color: rgba(148, 0, 1, 0.5);
-}
+} */
 
 @media screen and (max-width: 800px) {
   h1 {
