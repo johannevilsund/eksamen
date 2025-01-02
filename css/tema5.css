@@ -25,3 +25,13 @@
     margin-bottom: 6rem;
   }
 }
+.img {
+  height: 350x;
+  width: 600px;
+}
+
+#deforskeligesider img {
+  width: 100%;
+  aspect-ratio: 2.5/1.5; /* Gør billederne kvadratiske */
+  object-fit: cover;
+}
