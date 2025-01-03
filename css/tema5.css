@@ -11,9 +11,12 @@
     margin-bottom: 3rem;
   }
   body {
-    padding: 2%;
-    margin: 1rem;
-    max-width: 480px;
+    padding: 1rem;
+  }
+  #tiki img {
+    margin: 0;
+    width: 450px;
+    place-self: center;
   }
   .grid_3col {
     padding-bottom: 2rem;
