@@ -57,6 +57,22 @@ h2 {
   text-align: center;
   margin-bottom: 1rem;
 }
+h2::first-letter {
+  text-transform: uppercase;
+}
+p::first-letter {
+  text-transform: uppercase;
+}
+h6 {
+  font-family: "ivypresto-display", serif;
+  font-weight: 400;
+  font-style: thin;
+  font-size: 1rem;
+  color: rgb(148, 0, 1);
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
 p {
   font-size: 1.15rem;
 }

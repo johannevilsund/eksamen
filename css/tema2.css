@@ -25,3 +25,33 @@
   position: relative;
   top: -17rem;
 }
+@media screen and (max-width: 800px) {
+  h5 {
+    position: relative;
+    top: 2rem;
+    margin-bottom: 6rem;
+    max-width: 400px;
+    margin-left: 3rem;
+    width: 100%;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    white-space: normal;
+  }
+  .img1og2 {
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+  }
+  .dispaynone,
+  .minmacdescp,
+  .minmacmobil {
+    display: none;
+  }
+  #flytop {
+    position: relative;
+    top: 2rem;
+  }
+  footer {
+    margin-top: 4rem;
+    margin-bottom: -1rem;
+  }
+}

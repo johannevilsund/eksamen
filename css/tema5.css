@@ -12,6 +12,8 @@
   }
   body {
     padding: 2%;
+    margin: 1rem;
+    max-width: 480px;
   }
   .grid_3col {
     padding-bottom: 2rem;
@@ -23,6 +25,10 @@
     position: relative;
     top: 2rem;
     margin-bottom: 6rem;
+  }
+  .img {
+    height: 125x;
+    width: 300px;
   }
 }
 .img {
