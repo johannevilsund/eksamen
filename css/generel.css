@@ -28,7 +28,7 @@ video {
 }
 
 body {
-  background-image: url(../img/baggrund.png);
+  background-image: url(../img-webp/baggrund.webp);
   width: 100%;
   /* aspect-ratio: 1920/2368; */
   /* position: absolute; */
@@ -102,14 +102,15 @@ h4 {
 }
 
 @media screen and (min-width: 800px) {
-  #forside {
-    background-image: url(../img/baggrund.png);
-    width: 100%;
-    aspect-ratio: 1920/2368;
-    /* position: absolute; */
-    top: 0;
-    left: 0;
-  }
+  /* #forside { */
+  /* background-image: url(../img-webp/mobilbaggrund.webp);
+    width: 100%; */
+
+  /* width: 696px; */
+  /* position: absolute; */
+  /* top: 0;
+    left: 0; */
+  /* } */
   h5:first-letter {
     text-transform: uppercase;
     font-size: 17rem;
@@ -122,6 +123,9 @@ h4 {
   h5 {
     position: relative;
     top: 0.3rem;
+  }
+  h1 {
+    padding: 5%;
   }
 
   .grid_2col {

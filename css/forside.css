@@ -24,8 +24,10 @@ a:hover {
 .forside_meny {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  margin-top: 35rem;
+  margin-top: 34rem;
   text-align: center;
+  position: relative;
+  top: -1rem;
 }
 
 @media screen and (max-width: 800px) {
