@@ -18,6 +18,9 @@ a:hover {
   color: rgb(148, 0, 1);
 }
 
+#forsideskerm {
+  max-height: 500px;
+}
 .forside_meny {
   display: grid;
   grid-template-columns: 1fr 1fr;

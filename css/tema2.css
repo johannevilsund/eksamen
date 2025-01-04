@@ -6,6 +6,9 @@
   margin-left: 15rem;
   margin-right: 15rem;
 } */
+body {
+  aspect-ratio: 1920/2368;
+}
 #h2flyt {
   margin-top: 1rem;
 }

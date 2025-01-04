@@ -30,7 +30,7 @@ video {
 body {
   background-image: url(../img/baggrund.png);
   width: 100%;
-  aspect-ratio: 1920/2368;
+  /* aspect-ratio: 1920/2368; */
   /* position: absolute; */
   top: 0;
   left: 0;

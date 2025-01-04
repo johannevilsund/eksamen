@@ -23,6 +23,9 @@ body {
   padding-right: 1rem;
   padding-left: 1rem;
 }
+body {
+  aspect-ratio: 1920/2368;
+}
 
 p {
   margin-bottom: 1rem;

@@ -5,6 +5,9 @@
 #mineprojektermeny a:hover {
   color: rgba(148, 0, 1, 0.5);
 } */
+body {
+  aspect-ratio: 1920/2368;
+}
 
 @media screen and (max-width: 800px) {
   img {

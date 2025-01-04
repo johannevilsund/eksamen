@@ -6,6 +6,9 @@
 .flyt {
   margin-top: -18rem;
 }
+body {
+  aspect-ratio: 1920/2368;
+}
 @media screen and (max-width: 800px) {
   h5 {
     position: relative;

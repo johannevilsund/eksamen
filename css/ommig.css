@@ -7,7 +7,9 @@
 h2 {
   text-align: center;
 }
-
+body {
+  aspect-ratio: 1920/2368;
+}
 .span2 {
   grid-row: 3;
   grid-column: span 2;
