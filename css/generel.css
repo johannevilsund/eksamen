@@ -90,6 +90,17 @@ h5 {
   top: -7%;
   text-align: center;
 }
+h4 {
+  color: rgb(148, 0, 1);
+  font-size: 5rem;
+  font-family: "ivypresto-display", serif;
+  font-weight: 300;
+  font-style: normal;
+  position: relative;
+
+  text-align: center;
+}
+
 @media screen and (min-width: 800px) {
   #forside {
     background-image: url(../img/baggrund.png);

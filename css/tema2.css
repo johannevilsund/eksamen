@@ -25,6 +25,10 @@
 #flytop {
   position: relative;
   top: -17rem;
+  margin-bottom: -10rem;
+}
+p {
+  margin-bottom: 1rem;
 }
 @media screen and (max-width: 800px) {
   h5 {
@@ -47,9 +51,13 @@
   .minmacmobil {
     display: none;
   }
+  .grid_2col img {
+    place-self: center;
+  }
   #flytop {
     position: relative;
     top: 2rem;
+    margin-bottom: 6rem;
   }
   footer {
     margin-top: 4rem;
