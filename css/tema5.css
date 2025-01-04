@@ -38,8 +38,9 @@ body {
   }
 }
 .img {
-  height: 350x;
-  width: 600px;
+  aspect-ratio: 600/350;
+  /* height: 350x;
+  width: 600px; */
 }
 
 #deforskeligesider img {
