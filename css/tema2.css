@@ -33,6 +33,11 @@ body {
 p {
   margin-bottom: 1rem;
 }
+#linkt2 {
+  width: 350px;
+  place-self: center;
+}
+
 @media screen and (max-width: 800px) {
   h5 {
     position: relative;

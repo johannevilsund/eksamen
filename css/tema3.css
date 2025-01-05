@@ -9,6 +9,10 @@
 body {
   aspect-ratio: 1920/2368;
 }
+#linkt3 {
+  width: 350px;
+  place-self: center;
+}
 @media screen and (max-width: 800px) {
   h5 {
     position: relative;

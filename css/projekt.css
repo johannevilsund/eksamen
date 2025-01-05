@@ -1,108 +1,117 @@
 .macbook {
-  scale: 0.6 0.6;
-  position: relative;
-  top: -22%;
+  width: 700px;
+  place-self: center;
+  margin-top: -10%;
 }
 
 body {
   aspect-ratio: 1920/2368;
 }
+
 .pil {
-  scale: 0.07 0.07;
-  position: relative;
-  top: -92%;
+  scale: 2 2;
   animation-duration: 1s;
   animation-name: pil-ani;
   animation-iteration-count: infinite;
 }
+
 @keyframes pil-ani {
   from {
-    scale: 0.06 0.06;
+    scale: 0.04 0.04;
   }
   to {
-    scale: 0.07 0.07;
+    scale: 0.06 0.06;
   }
 }
 
 .studiestart {
-  position: relative;
-  scale: 0.7 0.7;
-  top: -145%;
+  width: 900px;
+  place-self: center;
+  margin-top: 13rem;
   filter: brightness(1);
-  transition: transform 0.3s ease, filter 0.3s ease; /* Smooth transition for effects */
+  transition: transform 0.3s ease, filter 0.3s ease;
 }
-.studiestart:hover {
-  transform: scale(1.1); /* Forstørrer billedet lidt */
-  filter: brightness(1); /* Gør billedet lidt lysere */
+
+/* .tikimedia {
+  top: -140%;
+} */
+
+.surdej {
+  width: 900px;
+  place-self: center;
+  margin-top: 13rem;
+  filter: brightness(1);
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.spil {
+  width: 900px;
+  place-self: center;
+  margin-top: 13rem;
+  filter: brightness(1);
+  transition: transform 0.3s ease, filter 0.3s ease;
 }
 
 .tikimedia {
-  position: relative;
-  scale: 0.7 0.7;
-  top: -140%;
+  width: 900px;
+  place-self: center;
+  margin-top: 13rem;
+  transition: transform 0.3s ease, filter 0.3s ease;
 }
 
-.surdej {
-  position: relative;
-  scale: 0.7 0.7;
-  top: -145%;
-  filter: brightness(1);
-  transition: transform 0.3s ease, filter 0.3s ease; /* Smooth transition for effects */
-}
-.surdej:hover {
-  transform: scale(1.1); /* Forstørrer billedet lidt */
-  filter: brightness(1); /* Gør billedet lidt lysere */
-}
-.spil {
-  position: relative;
-  scale: 0.7 0.7;
-  top: -145%;
-  filter: brightness(1);
-  transition: transform 0.3s ease, filter 0.3s ease; /* Smooth transition for effects */
-}
-.spil:hover {
-  transform: scale(1.1); /* Forstørrer billedet lidt */
-  filter: brightness(1); /* Gør billedet lidt lysere */
+footer {
+  margin-top: 10rem;
 }
 
 h1,
 h2 {
   text-align: center;
-  position: relative;
-  top: -150%;
 }
 h1 {
   font-size: 8rem;
+  margin-top: -3rem;
+  margin-bottom: -3rem;
 }
 h2 {
   font-size: 2rem;
 }
 
-.tikimedia {
-  position: relative;
-  scale: 0.7 0.7;
-  top: -145%;
-  transition: transform 0.3s ease, filter 0.3s ease; /* Smooth transition for effects */
+@media screen and (max-width: 800px) {
+  h1 {
+    font-size: 4.2rem;
+    margin-bottom: 1rem;
+    margin-top: -5rem;
+  }
+  .macbook {
+    margin-bottom: -20rem;
+  }
+  img {
+    scale: 0.5 0.5;
+    margin-top: -15rem;
+    margin-bottom: -2%;
+  }
+  h2 {
+    margin-bottom: -5rem;
+  }
+  #marginminus {
+    margin-top: 5rem;
+  }
 }
 
+/* hover effekter */
 .tikimedia:hover {
   transform: scale(1.1); /* Forstørrer billedet lidt */
   filter: brightness(2); /* Gør billedet lidt lysere */
 }
-
-/* #mineprojektermeny {
-  color: rgb(148, 0, 1);
+.spil:hover {
+  transform: scale(1.1); /* Forstørrer billedet lidt */
+  filter: brightness(1); /* Gør billedet lidt lysere */
 }
-
-#mineprojektermeny a:hover {
-  color: rgba(148, 0, 1, 0.5);
-} */
-/* #marginminus {
-  margin-bottom: -130rem;
-} */
-
-@media screen and (max-width: 800px) {
-  h1 {
-    font-size: 4.2rem;
-  }
+.surdej:hover {
+  transform: scale(1.1); /* Forstørrer billedet lidt */
+  filter: brightness(1); /* Gør billedet lidt lysere */
+}
+.studiestart:hover {
+  transform: scale(1.1); /* Forstørrer billedet lidt */
+  filter: brightness(1); /* Gør billedet lidt lysere */
 }

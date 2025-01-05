@@ -38,9 +38,24 @@ body {
   }
 }
 .img {
-  aspect-ratio: 600/350;
+  aspect-ratio: 400/250;
   /* height: 350x;
   width: 600px; */
+}
+#span2 {
+  grid-row: 1;
+  grid-column: span 2;
+  margin-left: 17rem;
+  margin-right: 17rem;
+  margin-bottom: 3rem;
+}
+.hover {
+  filter: brightness(1);
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+.hover:hover {
+  transform: scale(1.1); /* Forstørrer billedet lidt */
+  filter: brightness(1);
 }
 
 #deforskeligesider img {

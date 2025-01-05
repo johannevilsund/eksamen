@@ -50,6 +50,10 @@ h2 {
   /* margin-bottom: -25rem; */
 }
 
+.link {
+  scale: 0.7 0.7;
+  margin-top: -3rem;
+}
 /* .order-1 {
     order: 2;
   } */
