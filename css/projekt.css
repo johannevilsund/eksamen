@@ -9,8 +9,9 @@ body {
 }
 
 .pil {
-  scale: 2 2;
   animation-duration: 1s;
+  aspect-ratio: 200/200;
+
   animation-name: pil-ani;
   animation-iteration-count: infinite;
 }
