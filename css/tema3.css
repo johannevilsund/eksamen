@@ -17,10 +17,11 @@ body {
   h5 {
     position: relative;
     top: 1rem;
-    margin-bottom: 1rem;
+    margin-bottom: 4rem;
   }
   .gif {
-    position: relative;
+    margin-top: 7rem;
+    margin-bottom: -13rem;
   }
   .grid_4col {
     display: none;
@@ -34,13 +35,15 @@ body {
   p {
     margin-bottom: 2rem;
   }
-}
-@media screen and (min-width: 800px) {
-  h5 {
-    position: relative;
-    top: 0.3rem;
+
+  h1 {
+    margin-bottom: 1rem;
+    margin-top: 6rem;
   }
-  p {
-    margin-bottom: 2rem;
+  h2 {
+    margin-bottom: 3rem;
+  }
+  .remove {
+    display: none;
   }
 }

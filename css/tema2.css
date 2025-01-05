@@ -1,11 +1,4 @@
-.img1og2 {
-  margin-top: -1rem;
-  width: 300px;
-}
-/* #center {
-  margin-left: 15rem;
-  margin-right: 15rem;
-} */
+/* styling af body og tekst samt grids */
 body {
   aspect-ratio: 1920/2368;
 }
@@ -16,19 +9,15 @@ body {
   margin-left: 15rem;
   margin-right: 15rem;
 }
-.minmacmobil {
-  scale: 0.7 0.7;
-  position: relative;
-  top: -10rem;
-}
-/* .minmacdescp {
-  scale: 0.9 0.9;
-} */
-
 #flytop {
   position: relative;
   top: -17rem;
   margin-bottom: -10rem;
+}
+.minmacmobil {
+  scale: 0.7 0.7;
+  position: relative;
+  top: -10rem;
 }
 p {
   margin-bottom: 1rem;
@@ -37,7 +26,10 @@ p {
   width: 350px;
   place-self: center;
 }
-
+.img1og2 {
+  margin-top: -1rem;
+  width: 300px;
+}
 @media screen and (max-width: 800px) {
   h5 {
     position: relative;
@@ -70,5 +62,15 @@ p {
   footer {
     margin-top: 4rem;
     margin-bottom: -1rem;
+  }
+  h1 {
+    margin-bottom: 1rem;
+    margin-top: 6rem;
+  }
+  h2 {
+    margin-bottom: 2rem;
+  }
+  p {
+    margin-bottom: 1rem;
   }
 }

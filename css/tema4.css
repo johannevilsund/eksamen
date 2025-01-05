@@ -64,26 +64,35 @@ h2 {
     grid-template-columns: 1fr 1fr;
   }
   .dolk {
-    scale: 0.3 0.3;
     position: relative;
-    top: -25%;
+    top: 4rem;
   }
   .gift {
-    scale: 0.4 0.4;
+    scale: 0.7 0.7;
     position: relative;
-    top: -5%;
+    top: 4rem;
   }
   .pistol {
     position: relative;
-    top: -30rem;
+    top: 3rem;
   }
   .modgift {
-    scale: 1.4 1.4;
+    scale: 0.7 0.7;
     position: relative;
-    top: -40rem;
+    top: 1rem;
   }
   h5 {
     position: relative;
     top: 1.3rem;
+  }
+  h1 {
+    margin-bottom: 1rem;
+    margin-top: 6rem;
+  }
+  h2 {
+    margin-bottom: 2rem;
+  }
+  p {
+    margin-bottom: 1rem;
   }
 }
