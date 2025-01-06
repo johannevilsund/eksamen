@@ -94,7 +94,16 @@ h4 {
 footer {
   background-color: rgba(218, 236, 249);
 }
+.link {
+  filter: brightness(1);
+  transition: transform 0.3s ease, filter 0.3s ease;
+  scale: 0.8 0.8;
+}
 
+.link:hover {
+  transform: scale(1.1); /* Forstørrer billedet lidt */
+  filter: brightness(1);
+}
 @media screen and (min-width: 800px) {
   h5:first-letter {
     text-transform: uppercase;
