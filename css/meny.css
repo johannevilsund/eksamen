@@ -113,6 +113,6 @@ nav {
   }
 
   nav.active .menu {
-    left: -13rem; /* Menuen forbliver justeret til venstre */
+    left: -13rem;
   }
 }

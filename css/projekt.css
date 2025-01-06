@@ -80,6 +80,17 @@ h2 {
 }
 
 @media screen and (max-width: 800px) {
+  body {
+    background-image: url(../img-webp/mobilbaggrund.webp);
+    background-size: cover;
+    overflow: auto;
+    width: 100%;
+    aspect-ratio: 390/844;
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+
   h1 {
     font-size: 4.2rem;
     margin-bottom: 1rem;
@@ -103,18 +114,18 @@ h2 {
 
 /* hover effekter */
 .tikimedia:hover {
-  transform: scale(1.1); /* Forstørrer billedet lidt */
-  filter: brightness(2); /* Gør billedet lidt lysere */
+  transform: scale(1.1);
+  filter: brightness(2);
 }
 .spil:hover {
-  transform: scale(1.1); /* Forstørrer billedet lidt */
-  filter: brightness(1); /* Gør billedet lidt lysere */
+  transform: scale(1.1);
+  filter: brightness(1);
 }
 .surdej:hover {
-  transform: scale(1.1); /* Forstørrer billedet lidt */
-  filter: brightness(1); /* Gør billedet lidt lysere */
+  transform: scale(1.1);
+  filter: brightness(1);
 }
 .studiestart:hover {
-  transform: scale(1.1); /* Forstørrer billedet lidt */
-  filter: brightness(1); /* Gør billedet lidt lysere */
+  transform: scale(1.1);
+  filter: brightness(1);
 }

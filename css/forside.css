@@ -31,6 +31,15 @@ a:hover {
 }
 
 @media screen and (max-width: 800px) {
+  body {
+    background-image: url(../img-webp/mobilbaggrund.webp);
+    background-size: cover;
+    width: 100%;
+    aspect-ratio: 390/844;
+    position: relative;
+    top: 0;
+    left: 0;
+  }
   .forside_meny {
     display: grid;
     grid-template-columns: 1fr;

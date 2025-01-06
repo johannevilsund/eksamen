@@ -59,6 +59,16 @@ h2 {
   } */
 
 @media screen and (max-width: 800px) {
+  body {
+    background-image: url(../img-webp/mobilbaggrund.webp);
+    background-size: cover;
+    overflow: auto;
+    width: 100%;
+    aspect-ratio: 390/844;
+    position: relative;
+    top: 0;
+    left: 0;
+  }
   .grid_4col {
     display: grid;
     grid-template-columns: 1fr 1fr;
