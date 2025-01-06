@@ -12,3 +12,13 @@ function menuClick() {
   burger.classList.remove("active");
   nav.classList.remove("active");
 }
+
+// function sidenVises() {
+//   console.log("siden vises");
+//   document.querySelector("#tema3").classList.add("skjul");
+//   document.querySelector("#projekter").addEventListener("click", dropdown);
+// }
+// function dropdown() {
+//   console.log("drop down");
+//   document.querySelector("#tema3").classList.remove("skjul");
+// }

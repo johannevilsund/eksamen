@@ -58,6 +58,9 @@ nav {
   transition: 0.2s linear;
   align-self: end;
 }
+.skjul {
+  display: none;
+}
 
 .burger {
   display: none;
