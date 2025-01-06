@@ -2,6 +2,11 @@
   font-size: 9rem;
   position: relative;
   top: 10%;
+  margin-bottom: -1rem;
+}
+.overskrift2 {
+  position: relative;
+  top: -6rem;
 }
 
 a {
@@ -19,7 +24,8 @@ a:hover {
 }
 
 #forsideskerm {
-  max-height: 500px;
+  aspect-ratio: 1600/900;
+  overflow: hidden;
 }
 .forside_meny {
   display: grid;
@@ -27,7 +33,7 @@ a:hover {
   margin-top: 34rem;
   text-align: center;
   position: relative;
-  top: -1rem;
+  top: -21rem;
 }
 
 @media screen and (max-width: 800px) {
@@ -35,19 +41,22 @@ a:hover {
     background-image: url(../img-webp/mobilbaggrund.webp);
     background-size: cover;
     width: 100%;
+    overflow: hidden;
     aspect-ratio: 390/844;
     position: relative;
     top: 0;
     left: 0;
   }
+  .overskrift2 {
+    margin-top: 3rem;
+    font-size: 4rem;
+    position: relative;
+    top: 0rem;
+  }
   .forside_meny {
     display: grid;
     grid-template-columns: 1fr;
     gap: 1rem;
-    margin-top: 22rem;
+    margin-top: 11rem;
   }
-}
-
-#forside {
-  aspect-ratio: 1600/900;
 }

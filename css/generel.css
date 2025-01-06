@@ -91,6 +91,9 @@ h4 {
 
   text-align: center;
 }
+footer {
+  background-color: rgba(218, 236, 249);
+}
 
 @media screen and (min-width: 800px) {
   h5:first-letter {
