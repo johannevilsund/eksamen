@@ -4,7 +4,7 @@
   top: -12rem;
 }
 .flyt {
-  margin-top: -18rem;
+  margin-top: -24rem;
 }
 body {
   aspect-ratio: 1920/2368;
@@ -13,6 +13,7 @@ body {
   width: 350px;
   place-self: center;
 }
+
 @media screen and (max-width: 800px) {
   body {
     background-image: url(../img-webp/mobilbaggrund.webp);
