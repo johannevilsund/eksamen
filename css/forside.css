@@ -9,6 +9,10 @@
   top: -6rem;
 }
 
+body {
+  overflow: hidden;
+}
+
 a {
   text-transform: uppercase;
   font-size: 2rem;
